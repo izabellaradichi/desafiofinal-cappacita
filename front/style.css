@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;    
+    list-style: none;
+}
+
+/* body */
+
+#top-top a:hover{
+    color: #e46f2c;
+    font-weight: 700;
+}
+
+#inicio-cards{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+
+.info{
+    padding: 1rem;
+    color: #353434;
+}
+
+.id_filme{
+    padding-left: 1rem;
+    color: #e73e27;
+    padding: 1rem;
+}
+
+.nome_filme{
+    padding-left: 1rem;
+    color: #821D30;
+    padding: 1rem;
+    flex: auto;
+}
+
+#comentario{
+    color: #821D30;
+    padding-bottom: 2rem;
+} 
+
+.botao-enviar{
+    text-align: auto;
+    background-color: #383838;
+    color: #dbac66;
+}
+
+.imagem-filme{
+    padding: 2rem 0rem 0rem;
+    width: 400px;
+}
+
+
+.myButton{
+    text-decoration: none;
+    color:#495057;
+}
+
+
+
+/* footer */
+footer{
+    padding: 1rem 1rem 1rem;
+    background-color: #495057;
+    color: #858484;   
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #858484;  
+}
+
+footer a:hover{
+    color: #e46f2c;
+    font-weight: 700;
+}
+
+/* rodapé */
+#rodape{
+    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    color: #e46f2c;
+}
