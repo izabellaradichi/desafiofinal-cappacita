@@ -42,13 +42,19 @@
 
   <header id="header-top">
 
-    <h4 class="info">Nesta página você poderá buscar filmes e ver seus detalhes.</h4>
+    <h4 class="info">Nesta página você poderá buscar filmes e ver seus detalhes, além de listar todos os gêneros.</h4>
     <h5 class="info">Para ver os detalhes de um filme, digite abaixo seu título (ou uma palavra dele).</h5>
 
  <section class="section-form">
                  <fieldset class="nome_filme"><br><br>
                      <input type="text" name="nome_filme" Placeholder="Busque pelo título do filme.."><br><br>
                  <input class="botao-enviar" id="botao-enviar" type="button" value="Enviar"><br><br>    
+
+                 <div class="container">
+                  <button id="listar-generos" onclick="listarGeneros()">Listar Gêneros</button>
+                  <div id="generos" class="row row-cols-6">
+                  </div>
+                </div>
   </header>
 
   <footer class="footer">
