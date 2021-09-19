@@ -5,28 +5,58 @@
     list-style: none;
 }
 
-/* body */
-
 #top-top a:hover{
     color: #e46f2c;
     font-weight: 700;
 }
 
-#inicio-cards{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
-}
+.carousel {
+    position: relative;
+  }
+  .carousel-item img {
+    object-fit: cover;
+  }
+  #carousel-thumbs {
+    background: rgba(255,255,255,.3);
+    bottom: 0;
+    left: 0;
+    padding: 0 50px;
+    right: 0;
+  }
+  #carousel-thumbs img {
+    border: 5px solid transparent;
+    cursor: pointer;
+  }
+  #carousel-thumbs img:hover {
+    border-color: rgba(255,255,255,.3);
+  }
+  #carousel-thumbs .selected img {
+    border-color: #fff;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px;
+  }
+  @media all and (max-width: 767px) {
+    .carousel-container #carousel-thumbs img {
+      border-width: 3px;
+    }
+  }
+  @media all and (min-width: 576px) {
+    .carousel-container #carousel-thumbs {
+      position: absolute;
+    }
+  }
+  @media all and (max-width: 576px) {
+    .carousel-container #carousel-thumbs {
+      background: #ccccce;
+    }
+  }
+
 
 .info{
     padding: 1rem;
     color: #353434;
-}
-
-.id_filme{
-    padding-left: 1rem;
-    color: #e73e27;
-    padding: 1rem;
 }
 
 .nome_filme{
@@ -36,10 +66,6 @@
     flex: auto;
 }
 
-#comentario{
-    color: #821D30;
-    padding-bottom: 2rem;
-} 
 
 .botao-enviar{
     text-align: auto;
@@ -47,18 +73,10 @@
     color: #dbac66;
 }
 
-.imagem-filme{
-    padding: 2rem 0rem 0rem;
-    width: 400px;
-}
-
-
 .myButton{
     text-decoration: none;
     color:#495057;
 }
-
-
 
 /* footer */
 footer{
@@ -78,12 +96,4 @@ footer a{
 footer a:hover{
     color: #e46f2c;
     font-weight: 700;
-}
-
-/* rodapé */
-#rodape{
-    justify-content: center;
-    margin-top: 1rem;
-    display: flex;
-    color: #e46f2c;
 }

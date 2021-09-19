@@ -23,9 +23,9 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-  <div class="container">
   <a class="navbar-brand">TMDb Filmes</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon">
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -34,74 +34,162 @@
         <a class="nav-link" href="./index.html">Início</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./buscar-filme-id.html">Buscar Filme</a>
-      </li>      
-    </li>
+        <a class="nav-link" href="./buscar-filme-id.html">Buscar Filmes</a>
+      </li>
+      </li>
     </ul>
   </div>
-</div>
 </nav>
 
 <body>
-  <div>
-   .
-  </div>
+  <div class="container mt-4">
+    <div class="carousel-container position-relative row">    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-slide-number="0">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/Pn6iimgM-wo/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="1">
+          <img src="../img/filme.jpeg"class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/tXqVe7oO-go/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="2">
+          <img src="../img/filme.jpeg"class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/qlYQb7B9vog/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="3">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/QfEfkWk1Uhk/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="4">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/CSIcgaLiFO0/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="5">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/a_xa7RUKzdc/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="6">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/uanoYn1AmPs/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="7">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/_snqARKTgoc/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="8">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/M9F8VR0jEPM/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="9">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/Q1p7bh3SHj8/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+        <div class="carousel-item" data-slide-number="9">
+          <img src="../img/filme.jpeg" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/Q1p7bh3SHj8/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Carousel Navigation -->
+    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row mx-0">
+            <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row mx-0">
+            <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">
+              <img src="../img/filme.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-2 px-1 py-2"></div>
+            <div class="col-2 px-1 py-2"></div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+    
+    </div> <!-- /row -->
+    </div> <!-- /container -->
+
+
+
+ 
 
   <div class="container">
     <button id="listar-generos" onclick="listarGeneros()">Listar Gêneros</button>
     <div id="generos" class="row row-cols-6">
     </div>
-</div>
-
-
-<div>
-   .
-</div>
-
-<footer class="footer">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-5">
-              <h5><i class="fa fa-road"></i>TMDb Filmes</h5>
-              <div class="row">
-                  <div class="col-6">
-                      <ul class="list-unstyled">
-                          <li><a href="">Quem somos</a></li>
-                          <li><a href="">Objetivo</a></li>
-                          <li><a href="">Documentação</a></li>
-                          <li><a href="">Trabalhe conosco</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-6">
-                      <ul class="list-unstyled">
-                          <li><a href="">Filmes</a></li>
-                          <li><a href="">Séries</a></li>
-                          <li><a href="">Buscar por ator</a></li>
-                          <li><a href="">Buscar por diretor</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-2">
-              <h5 class="text-md-right">Entre em contato</h5>
-              <hr>
-          </div>
-          <div class="col-md-5">
-              <form>
-                  <fieldset class="form-group">
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Seu e-mail">
-                  </fieldset>
-                  <fieldset class="form-group">
-                      <textarea class="form-control" id="exampleMessage" placeholder="Sua mensagem"></textarea>
-                  </fieldset>
-                  <fieldset class="form-group text-xs-right">
-                      <button type="button" class="btn btn-secondary-outline btn-lg">Enviar</button>
-                  </fieldset>
-              </form>
-          </div>
-      </div>
   </div>
-</footer>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h5><i class="fa fa-road"></i>TMDb Filmes</h5>
+          <div class="row">
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li><a href="">Quem somos</a></li>
+                <li><a href="">Objetivo</a></li>
+                <li><a href="">Documentação</a></li>
+                <li><a href="">Trabalhe conosco</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li><a href="">Filmes</a></li>
+                <li><a href="">Séries</a></li>
+                <li><a href="">Buscar por ator</a></li>
+                <li><a href="">Buscar por diretor</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <h5 class="text-md-right">Entre em contato</h5>
+          <hr>
+        </div>
+        <div class="col-md-5">
+          <form>
+            <fieldset class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Seu e-mail">
+            </fieldset>
+            <fieldset class="form-group">
+              <textarea class="form-control" id="exampleMessage" placeholder="Sua mensagem"></textarea>
+            </fieldset>
+            <fieldset class="form-group text-xs-right">
+              <button type="button" class="btn btn-secondary-outline btn-lg">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
@@ -110,6 +198,13 @@
     crossorigin="anonymous"></script>
 
   <script src="../back/script.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-4fdbc6a9-7bc6-b5df-ed08-1e772d8b54bc" crossorigin=""></script>
   <!-- <script src="../back/server.js"></script> -->
 </body>
+
 </html>
